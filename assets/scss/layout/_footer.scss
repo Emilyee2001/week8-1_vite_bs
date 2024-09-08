@@ -1,0 +1,12 @@
+.bg-footer{
+    background-color: #282828;
+}
+.footer-logo{
+    width: 200px;
+}
+.footer-menu-rwd{
+    @include md{
+        align-items: center;
+        justify-content: space-between;
+    }
+}

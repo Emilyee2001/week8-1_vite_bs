@@ -1,0 +1,16 @@
+.header-logo{
+  width: 150px;
+  @include md{
+    width: 200px;
+  }
+}
+.header-rwd-toggle-height{
+  height: calc(100vh - 100px);
+}
+.header-rwd-menu{
+  height: calc(100vh - 180px);
+  overflow-y: scroll;
+}
+.header-box-shadow{
+  box-shadow: 0px 2px 40px 0px rgba(0, 104, 255, 0.1);
+}

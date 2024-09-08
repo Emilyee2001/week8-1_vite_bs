@@ -1,0 +1,85 @@
+.btn-primary-style{
+    border: none;
+    color: $white;
+    background-color: $primary-100;
+    border-radius: .75rem;
+    font-size: bold;
+    transition: 0.3s;
+    &:hover{
+        background-color: $primary-120;
+    }
+}
+.btn-primary{
+    padding: 1rem 2rem;
+}
+.btn-primary-sm{
+    padding: .75rem 1rem;
+}
+.btn-secondary-style{
+    border: 1px solid $neu-40;
+    color: $neu-80;
+    background-color: $white;
+    border-radius: .75rem;
+    transition: 0.3s;
+    &:hover{
+        background-color: $primary-100;
+        border: 1px solid $primary-100;
+        color: $white;
+    }
+}
+.btn-secondary{
+    padding: .75rem 1rem;
+}
+.nav-link-primary{
+    border-radius: .75rem;
+    padding: .75rem 1.5rem;
+    color: $neu-80;
+    position: relative;
+}
+.nav-link-primary-icon::after{
+    position: absolute;
+    content: "\e5cc";
+    font-family: "material symbols outlined";
+    right: 20px;
+    border: none;
+}
+.nav-link-primary-hover:hover{
+    color: $white;
+    background-color: $primary-100;
+    font-weight: bold;
+}
+
+// tag
+.tag-primary{
+    border-radius: 6.25rem;
+    background-color: $primary-10;
+    color: $primary-100;
+    padding: .5rem .75rem;
+    font-weight: bold;
+}
+.tag-alert{
+    border-radius: 6.25rem;
+    background-color: $alert-10;
+    color: $alert-100;
+    padding: .5rem .75rem;
+    font-weight: bold;
+}
+.tag-neu{
+    border-radius: 6.25rem;
+    background-color: $neu-40;
+    color: $neu-80;
+    padding: .25rem .75rem;
+    font-weight: bold;
+}
+.tag-icon-style{
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    background-color: $white;
+    img{
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+.tag-icon{
+    width: calc((100% - 24px)/2);
+}

@@ -1,0 +1,33 @@
+.swiperCardProgress-style{
+    // border: none;
+    border-radius: 1.25rem;
+    // box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    .progress{
+        --bs-progress-height: .5rem;
+    }
+}
+.swiperCardImg-style{
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.swiper-card-overlap{
+    border: 0;
+    background: transparent;
+    .card-img-top{
+        margin-left: 5rem;
+        width: auto;
+    }
+    .card-body{
+        padding: 1.55rem;
+        margin-right: 2rem;
+        margin-top: -5rem;
+        border-radius: 1.25rem;
+        background: $white;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.12);
+    }
+    .card-text{
+        height: 4.5rem;
+        overflow: hidden;
+    }
+}

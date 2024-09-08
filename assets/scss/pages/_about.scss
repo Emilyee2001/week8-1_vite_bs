@@ -1,0 +1,34 @@
+.logo-school{
+    border: 1px solid $neu-40;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 230px;
+    @include md{
+        width: 200px;
+        height: 200px;
+        margin-top: 300px;
+    }
+}
+.bg-banner-about-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/images/hero-sm-5.png);
+    @include md{
+        height: 400px;
+        background-image: url(/assets/images/hero-5.png);
+    }
+}
+.bg-banner-about{
+    display: flex;
+    justify-content: center;
+    @include md{
+        justify-content: start;
+    }
+}
+.about-content{
+    align-items: center;
+    @include md{
+        align-items: start;
+    }
+}

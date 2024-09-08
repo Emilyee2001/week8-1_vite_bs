@@ -1,0 +1,64 @@
+// api
+$utilities: map-merge(
+  $utilities, (
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+
+.fs-sm{
+    font-size: $small-font-size;
+}
+.fs-xs{
+    font-size: .75rem;
+}
+.w-40{
+    width: 40%;
+}
+.p-025rem{
+    padding: 0.25rem;
+}
+.top-15{
+    top: 15%;
+}
+.px120{
+    padding: 0 7.5rem;
+}
+.py120{
+    padding: 7.5rem 0;
+}
+.my120{
+    margin: 7.5rem 0;
+}
+.mb120{
+    margin-bottom: 7.5rem;
+}
+.rounded-5rem{
+    border-radius: 5rem;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.overflow-x-scroll::-webkit-scrollbar {
+    display: none;
+  }
+.top-1rem{
+    top: 1rem;
+}
+.start-1rem{
+    left: 1rem;
+}
+.w-md-50{
+    @include md{
+        width: 50%;
+    }
+}
+.gap-y-5{
+    gap: 1.5rem 0;
+}
+.mt160{
+    margin-top: 10rem;
+}
